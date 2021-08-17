@@ -1,0 +1,24 @@
+{
+    "name": "jetbrains-theme",
+    "displayName": "jetbrains-theme",
+    "description": "A color theme which makes vscode look like a Jetbrains IDE like PHPStorm as much as possible",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "JetBrains Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/JetBrains Theme-color-theme.json"
+            }
+        ]
+    },
+	"dependencies": {
+		"vscode-jetbrains-icon-theme" : "~1.0.6"
+	}
+}
